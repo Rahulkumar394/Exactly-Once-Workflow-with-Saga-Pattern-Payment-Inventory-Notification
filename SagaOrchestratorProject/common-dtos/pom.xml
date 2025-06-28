@@ -1,0 +1,18 @@
+<!-- File: SagaOrchestratorProject/common-dtos/pom.xml -->
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    
+    <!-- This links the module to the parent POM we created above. -->
+    <parent>
+        <groupId>com.example.saga</groupId>
+        <artifactId>saga-orchestrator-project</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    
+    <!-- The unique ID for this specific module. -->
+    <artifactId>common-dtos</artifactId>
+    <name>common-dtos</name>
+    <description>Shared DTOs for Saga Pattern</description>
+</project>
